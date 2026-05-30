@@ -1,19 +1,44 @@
 {
   "name": "@weiseer/status-aggregator-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "mcpName": "io.github.weiseer/status-aggregator",
   "description": "Cross-vendor SaaS status aggregator for AI agents — Anthropic/OpenAI/AWS/GitHub/Stripe/CF status unified.",
   "type": "module",
-  "bin": { "status-aggregator-mcp": "./index.js" },
+  "bin": {
+    "status-aggregator-mcp": "./index.js"
+  },
   "main": "./index.js",
-  "files": ["index.js", "services.json", "README.md"],
-  "scripts": { "start": "node index.js" },
-  "keywords": ["mcp", "status", "uptime", "incidents", "saas", "ai-agent", "weiseer"],
+  "files": [
+    "index.js",
+    "services.json",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "status",
+    "uptime",
+    "incidents",
+    "saas",
+    "ai-agent",
+    "weiseer"
+  ],
   "author": "weiseer <wei@weiseer.com>",
   "license": "Apache-2.0",
-  "repository": { "type": "git", "url": "https://github.com/weiseer/status-aggregator-mcp.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weiseer/status-aggregator-mcp.git"
+  },
   "homepage": "https://github.com/weiseer/status-aggregator-mcp#readme",
-  "bugs": { "url": "https://github.com/weiseer/status-aggregator-mcp/issues" },
-  "engines": { "node": ">=18.0.0" },
-  "dependencies": { "@modelcontextprotocol/sdk": "^0.6.0" }
+  "bugs": {
+    "url": "https://github.com/weiseer/status-aggregator-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
 }
