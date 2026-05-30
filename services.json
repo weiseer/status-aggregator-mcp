@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1.0",
+  "as_of": "2026-05-30T04:21:00Z",
+  "services": [
+    { "service_id": "anthropic",   "name": "Anthropic API",   "category": "llm-provider", "status_page_url": "https://status.anthropic.com",        "status_api_url": "https://status.anthropic.com/api/v2/status.json",        "last_known_status": "operational" },
+    { "service_id": "openai",      "name": "OpenAI API",      "category": "llm-provider", "status_page_url": "https://status.openai.com",           "status_api_url": "https://status.openai.com/api/v2/status.json",           "last_known_status": "operational" },
+    { "service_id": "google-ai",   "name": "Google AI Studio","category": "llm-provider", "status_page_url": "https://status.cloud.google.com",     "status_api_url": "https://status.cloud.google.com/incidents.json",         "last_known_status": "operational" },
+    { "service_id": "mistral",     "name": "Mistral AI",      "category": "llm-provider", "status_page_url": "https://status.mistral.ai",           "status_api_url": "https://status.mistral.ai/api/v2/status.json",           "last_known_status": "operational" },
+    { "service_id": "github",      "name": "GitHub",          "category": "devtools",     "status_page_url": "https://www.githubstatus.com",        "status_api_url": "https://www.githubstatus.com/api/v2/status.json",        "last_known_status": "operational" },
+    { "service_id": "npm",         "name": "npm Registry",    "category": "devtools",     "status_page_url": "https://status.npmjs.org",            "status_api_url": "https://status.npmjs.org/api/v2/status.json",            "last_known_status": "operational" },
+    { "service_id": "cloudflare",  "name": "Cloudflare",      "category": "cloud",        "status_page_url": "https://www.cloudflarestatus.com",    "status_api_url": "https://www.cloudflarestatus.com/api/v2/status.json",    "last_known_status": "operational" },
+    { "service_id": "aws",         "name": "AWS",             "category": "cloud",        "status_page_url": "https://health.aws.amazon.com",       "status_api_url": "https://health.aws.amazon.com/public/currentevents",     "last_known_status": "operational" },
+    { "service_id": "vercel",      "name": "Vercel",          "category": "cloud",        "status_page_url": "https://www.vercel-status.com",       "status_api_url": "https://www.vercel-status.com/api/v2/status.json",       "last_known_status": "operational" },
+    { "service_id": "netlify",     "name": "Netlify",         "category": "cloud",        "status_page_url": "https://www.netlifystatus.com",       "status_api_url": "https://www.netlifystatus.com/api/v2/status.json",       "last_known_status": "operational" },
+    { "service_id": "render",      "name": "Render",          "category": "cloud",        "status_page_url": "https://status.render.com",           "status_api_url": "https://status.render.com/api/v2/status.json",           "last_known_status": "operational" },
+    { "service_id": "stripe",      "name": "Stripe",          "category": "payments",     "status_page_url": "https://status.stripe.com",           "status_api_url": "https://status.stripe.com/api/v2/status.json",           "last_known_status": "operational" },
+    { "service_id": "algolia",     "name": "Algolia",         "category": "devtools",     "status_page_url": "https://status.algolia.com",          "status_api_url": "https://status.algolia.com/api/v2/status.json",          "last_known_status": "operational" },
+    { "service_id": "linear",      "name": "Linear",          "category": "devtools",     "status_page_url": "https://linearstatus.com",            "status_api_url": "https://linearstatus.com/api/v2/status.json",            "last_known_status": "operational" }
+  ],
+  "incidents_today": []
+}
